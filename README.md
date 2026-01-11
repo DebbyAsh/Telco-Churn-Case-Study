@@ -87,23 +87,12 @@ The analysis follows a structured data science workflow:
     contracts\
 -   Review pricing and perceived value for high-paying customers\
 -   Use churn probability scores to drive targeted retention campaigns
-
-------------------------------------------------------------------------
-
-## Tech Stack
-
--   Python\
--   pandas, NumPy\
--   matplotlib, seaborn\
--   scikit-learn\
--   Jupyter Notebook
-
 ------------------------------------------------------------------------
 
 ## Repository Structure
 
--   `notebook/` -- Main Jupyter Notebook with full analysis\
--   `data/` -- Dataset (if included)\
+-   `notebook/` -- Telco Churn Analysis.ipynb
+-   `data/` -- churn.csv
 -   `README.md` -- Project overview and documentation
 
 ------------------------------------------------------------------------
