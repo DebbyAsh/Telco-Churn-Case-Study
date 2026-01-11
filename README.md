@@ -51,7 +51,7 @@ The analysis follows a structured data science workflow:
 7.  Model Evaluation (Confusion Matrix, ROC-AUC, Precision, Recall,
     F1-score)\
 8.  Threshold Optimization & Precision--Recall Analysis\
-9.  Business Recommendations & Insights
+9.  Business Recommendations 
 
 ------------------------------------------------------------------------
 
@@ -119,7 +119,4 @@ problems. This project demonstrates: - Business understanding\
 
 ------------------------------------------------------------------------
 
-## Author
 
-Created as a data analytics portfolio project to demonstrate applied
-data science and business problem-solving skills.
