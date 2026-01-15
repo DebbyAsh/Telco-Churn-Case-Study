@@ -3,22 +3,19 @@
 ## Project Overview
 
 This project presents an end-to-end customer churn analysis using a
-real-world inspired telecom dataset. The goal is to understand why
+real world telecom dataset. The goal is to understand why
 customers leave, build predictive models to identify at-risk customers,
 and translate analytical findings into actionable business
 recommendations.
-
-The project demonstrates both technical data science skills and strong
-business reasoning, which are essential for real-world analytics roles.
 
 ------------------------------------------------------------------------
 
 ## Business Problem
 
 Customer churn leads to lost revenue and increased customer acquisition
-costs. In highly competitive subscription-based industries (such as
-telecom, banking, SaaS, and streaming services), retaining customers is
-often more cost-effective than acquiring new ones.
+costs. In highly competitive subscription based industries such as
+telecom, banking, and streaming services), retaining customers is
+often more cost effective than acquiring new ones.
 
 **Objective:** - Understand key drivers of churn
 - Build predictive models to identify customers likely to leave
@@ -70,8 +67,8 @@ The analysis follows a structured data science workflow:
 
 ## Model Performance (Summary)
 
--   Logistic Regression ROC-AUC: \~0.86\
--   Random Forest ROC-AUC: \~0.85\
+-   Logistic Regression ROC-AUC: ~0.86
+-   Random Forest ROC-AUC: \~0.85
 -   The models demonstrate strong ability to distinguish churners from
     non-churners\
 -   Recall was prioritized to better capture at-risk customers
