@@ -27,11 +27,14 @@ retention
 ## Dataset
 
 Telco Customer Churn Dataset
-Each row represents a customer with information on: - Demographics
-(e.g. gender, senior citizen, dependents) - Services subscribed
-(internet, streaming, tech support, etc.) - Contract type and payment
-method - Tenure and billing information - Target variable: `Churn` (1 =
-customer left, 0 = customer stayed)
+Each row represents a customer with information on:
+- Demographics
+(e.g. gender, senior citizen, dependents)
+- Services subscribed
+(internet, streaming, tech support, etc.)
+- Contract type and payment method
+- Tenure and billing information
+- Target variable: `Churn` (1 = customer left, 0 = customer stayed)
 
 ------------------------------------------------------------------------
 
@@ -68,17 +71,15 @@ The analysis follows a structured data science workflow:
 ## Model Performance (Summary)
 
 -   Logistic Regression ROC-AUC: ~0.86
--   Random Forest ROC-AUC: \~0.85
--   The models demonstrate strong ability to distinguish churners from
-    non-churners\
+-   Random Forest ROC-AUC: ~0.85
+-   The models demonstrate strong ability to distinguish churners from n-churners
 -   Recall was prioritized to better capture at-risk customers
 
 ------------------------------------------------------------------------
 
 ## Business Recommendations
 
--   Prioritize high-risk customers predicted by the model for retention
-    efforts
+-   Prioritize high-risk customers predicted by the model for retention efforts
 -   Strengthen onboarding and engagement during the first 6 months
 -   Encourage customers to move from month-to-month to long-term
     contracts
@@ -88,8 +89,8 @@ The analysis follows a structured data science workflow:
 
 ## Repository Structure
 
--   `notebook/` -- Telco Churn Analysis.ipynb
--   `data/` -- churn.csv
+-   `notebook` -- Telco Churn Analysis.ipynb
+-   `data` -- churn.csv
 -   `README.md` -- Project overview and documentation
 
 ------------------------------------------------------------------------
